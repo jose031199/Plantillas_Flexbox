@@ -1,0 +1,134 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-size:60px;
+}
+
+h3{
+    font-size:35px;
+}
+
+p{
+    font-size:20px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+span{
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+header{
+    background-color:black;
+}
+
+.menu{
+    display: flex;
+    height:100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__img{
+    height:inherit;
+}
+
+
+.menu__nav a{
+    color: white;
+    padding-right:15px;
+    font-size: 20px;
+}
+
+
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+.inscribir{
+    width: 40%;
+    height: 600px;
+    
+}
+
+.inscribir img{
+    width:100%;
+}
+
+.inscribir__texto--negro{
+    text-align: center;
+    padding: 2px 8px;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.btn{
+    height: inherit;
+    padding:15px 15px;
+    color: rgba(236, 236, 4, 0.986);
+    font-weight:bold;
+    border-radius:5px;
+    margin-left:180px;
+}
+
+.btn-verde{
+    background-color: rgb(54, 151, 54);
+}
+
+.contenido{
+    width: 60%;
+    height:600px;
+    background-color:blue;
+}
+
+
+footer{
+    height: 100px;
+    background-color:teal;
+    text-align:center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+
+.contenido{
+    background: url('../img/image3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div__contenido{
+    color: white;
+    padding-top:220px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+
+.flex p{
+    text-transform: uppercase;
+    color:white;
+}
+.redes{
+    font-size: 30px;
+    padding-right: 20px;
+    color: rgb(223, 223, 15);
+}

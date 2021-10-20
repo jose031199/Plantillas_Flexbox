@@ -1,0 +1,152 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+h1{
+    font-size:60px;
+}
+
+h3{
+    font-size:25px;
+    color: rgb(52, 52, 151);
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #E0115F;
+    font-weight: bold;
+}
+
+li,.beneficios,.oferta{ 
+    font-size:18px;
+    padding-top: 10px;
+    color:rgb(58, 57, 57);
+    font-weight: bold;
+}
+
+
+
+p{
+    color:  white;
+    font-size:15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input[type="submit"]{
+    padding:10px 35px;
+    border-radius: 5px;
+    background-color:teal;
+    color: gold;
+    font-size:20px;
+}
+
+i{
+    padding: 0 10px;
+    font-size:30px;
+    color: gold;
+}
+
+ul{ 
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+}
+
+
+header{
+    background-color:rgb(24, 91, 192);
+    margin-bottom:5px;
+}
+
+.menu{
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.menu__titulo{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu__titulo img{
+    height: 100px;
+}
+
+.menu__navegacion a{
+    padding: 0 25px;
+}
+
+main{
+    margin-bottom: 5px;
+}
+
+.controlador{
+    display: flex;
+    height: 600px;
+}
+
+.opcion1,.opcion3{
+    height: inherit;
+    width: 20%;
+    margin:0 5px;
+}
+
+.opcion1{
+    background: url('../img/cleintes.png');
+    background-size:300px 600px;
+    background-repeat:no-repeat;
+}
+
+.opcion3{
+    background: url('../img/cupones.png');
+    background-size:300px 600px;
+    background-repeat:no-repeat;
+}
+
+.opcion2{
+    height: inherit;
+    width: 60%;
+    background:url('../img/avion.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:1000px 600px ;
+}
+
+.contenido{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+footer{
+    height: 80px;
+    background-color:rgb(24, 91, 192)
+}
+
+.informacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.informacion p{
+    text-align:center;
+}
+
+

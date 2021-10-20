@@ -1,0 +1,98 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+    text-transform:uppercase;
+    font-weight: 600;
+}
+i{
+    color: white;
+    font-size:25px;
+}
+
+
+h2,h3,p{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size:50px;
+}
+
+p{
+    font-size:25px;
+    font-weight:bold;
+}
+
+.contenedor{
+    width:100vw;
+    height:735px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 10px;
+}
+
+.contenido__barra{
+    background:url('../img/fifa_22.jpg');
+    height: inherit;
+    background-size:365px 735px ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.contenido__menu{
+    height: 600px;
+    
+}
+
+.menu{
+    height: 70px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redes{
+    margin-right: 20px;
+}
+
+.redes i{
+    padding:0 15px;
+}
+
+.menu img{
+    height:inherit;
+}
+
+.menu__nav a{
+    padding-right: 35px;
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height:600px;
+}
+
+.principal__1{
+    background:url('../img/nba.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.principal__2{
+    background:url('../img/champions.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

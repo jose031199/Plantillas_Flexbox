@@ -1,0 +1,132 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+    font-size:16px;
+    text-transform: uppercase;
+}
+
+h1{
+    color: gold;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    text-transform:uppercase;
+    word-spacing: 15px;
+    color: gold;
+    font-size:50px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    background-color:rgb(10, 80, 10);
+    margin-bottom: 5px;
+}
+
+.menu{
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__titulo{
+    display: flex;
+    align-items: center;
+}
+
+
+.menu__titulo img{
+    height:100px;
+    margin-right: 20px;
+}
+
+.menu__nav a{
+    padding: 0 15px;
+}
+
+.controlador{
+    display: flex;
+    height: 650px;
+
+}
+
+.opcion1,.opcion3{
+    width:20%;
+    height:inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcion1{
+    margin-right: 5px;
+}
+
+.opcion3{
+    margin-left: 5px;
+}
+
+.opcion2{
+    width:60%;
+    height: inherit;
+    background:url('../img/principal.jpg');
+}
+
+.cuadro{
+    height: 250px;
+}
+.leon{
+    background: url('../img/lions.jpg');
+    background-repeat:no-repeat;
+    background-size: 400px 250px;
+}
+
+.jiraffa{
+    background: url('../img/jirafas.jpg');
+    background-repeat:no-repeat;
+    background-size: 400px 250px; 
+}
+
+.hipo{
+    background: url('../img/hipo.jpg');
+    background-repeat:no-repeat;
+    background-size: 400px 250px; 
+}
+
+.dragon{
+    background: url('../img/dragon.jpg');
+    background-repeat:no-repeat;
+    background-size: 400px 250px; 
+}
+
+.aves{
+    background: url('../img/aves.jpg');
+    background-repeat:no-repeat;
+    background-size: 400px 250px; 
+}
+
+.okapi{
+    background: url('../img/okapi.jpg');
+    background-repeat:no-repeat;
+    background-size: 400px 250px; 
+}
+
+.titulo{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content:stretch;
+}
+
+

@@ -1,0 +1,77 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.controlador{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+h2{
+    color: gold;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size:30px;
+}
+
+.opcion1{
+    background:url('../img/boku.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.opcion2{
+    background:url('../img/pancreas.jpg'),rgba(0 , 0 ,0 ,0.4);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+.opcion3{
+    background:url('../img/kuro.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.contenido{
+    text-align: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    padding: 25px 0;
+    font-size:25px;
+    color: rgb(17, 0, 255);
+}
+
+.contenido__boton{
+    text-align: center;
+    height: 200px;
+}
+
+p{
+    color:rgb(250, 213, 4);
+    font-size:25px;
+    font-weight: bolder;
+    padding-top: 18px;
+}
+
+.opcion2 p{
+    color: black;
+}
+
+span{
+
+    color: gold;
+    background-color:rgb(3, 68, 105);
+    padding:20px 35px;
+    border-radius:15px;
+    font-size:18px;
+}

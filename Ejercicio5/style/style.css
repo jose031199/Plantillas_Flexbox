@@ -1,0 +1,147 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(19, 147, 221);
+}
+
+span{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container{
+    width:90%;
+    margin: auto;
+}
+
+p{
+    color: grey;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+}
+
+h2{
+    font-size:25px;
+}
+
+h3{
+    font-size:15px;
+}
+
+h2,h3{
+    color: white;
+    text-transform: uppercase;
+}
+i{
+    color: white;
+    font-size:30px;
+}
+
+.btn{
+    margin: 10px 10px;
+    border-radius:5px;
+    padding: 10px 20px;
+}
+
+.btn__transparente{
+    border: 3px solid white;
+}
+
+header{
+    background-color:rgb(252, 252, 252);
+    margin-bottom: 12px;
+}
+
+.menu{
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu img{
+    height: inherit;
+}
+
+.menu__nav a{
+    padding: 0 15px;
+}
+
+.titulo{
+    height: 70px;
+    background-color: rgb(10, 10, 136);
+    margin-bottom:12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__header{
+    padding-top:20px;
+}
+
+.controlador{
+    display: flex;
+    height: 500px;
+    margin-bottom: 5px;
+}
+
+.opcion1,.opcion3{
+    width:20%;
+    height:400px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+
+
+
+.img1,.img2,.img3,.img4{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img__titulo{
+    color: rgb(47, 132, 230);
+    text-align: center;
+    margin-bottom: 5px;
+}
+.opcion1{
+    margin-right: 5px;
+}
+
+.opcion3{
+    margin-left: 5px;
+}
+
+.opcion2{
+    width: 60%;
+    height:inherit;
+    background:url('../img/portada.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    background-color:rgb(10, 10, 136);
+    height:80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.redes i{
+    padding: 0 12px;
+}
+
+
+
+
